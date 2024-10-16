@@ -4,3 +4,4 @@ sse-starlette==1.1.6
 tokenizers==0.12.1
 tritonclient[all]==2.25.0
 uvicorn==0.18.3
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
